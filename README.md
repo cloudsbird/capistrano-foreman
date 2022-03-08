@@ -6,7 +6,7 @@ Capistrano tasks for foreman and upstart/systemd.
 
 ## Installation
 
-    $ gem install capistrano-foreman
+     gem 'capistrano-foreman', '~> 1.5',   git: 'https://github.com/cloudsbird/capistrano-foreman', require: false
 
 Add this to your `Capfile`:
 

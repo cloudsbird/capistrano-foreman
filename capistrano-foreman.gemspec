@@ -3,8 +3,8 @@ lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |gem|
-  gem.authors       = ["Johannes Gorset", 'John Bellone']
-  gem.email         = ["jgorset@gmail.com", 'jbellone@bloomberg.net']
+  gem.authors       = ["Johannes Gorset", 'John Bellone', 'Vederis Leunardus']
+  gem.email         = ["jgorset@gmail.com", 'jbellone@bloomberg.net', 'vederis@virtualspirit.me']
   gem.description   = "Capistrano tasks for foreman and upstart/systemd."
   gem.summary       = "Capistrano tasks for foreman and upstart/systemd."
   gem.homepage      = "http://github.com/hyperoslo/capistrano-foreman"
